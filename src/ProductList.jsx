@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './ProductList.css'
 import CartItem from './CartItem';
+import {handleIncrement,handleDecrement} from './CartItem';
 const [addedToCart, setAddedToCart] = useState({});
 function ProductList() {
     const [showCart, setShowCart] = useState(false); 
@@ -254,6 +255,7 @@ const handleAddToCart = (product) => {
     e.preventDefault();
     setShowCart(false);
   };
+
     return (
         <div>
              <div className="navbar" style={styleObj}>
