@@ -23,7 +23,7 @@ const CartItem = ({ onContinueShopping }) => {
         dispatch(updateQuantity({ name: item.name, quantity: item.quantity + 1 }));
     }
     else{
-        
+
     }
     }
   };
@@ -72,5 +72,3 @@ const CartItem = ({ onContinueShopping }) => {
 };
 
 export default CartItem;
-
-
