@@ -17,8 +17,6 @@ const CartItem = ({ onContinueShopping }) => {
    
   };
 
-
-
   const handleIncrement = (item) => {
   };
 
@@ -65,5 +63,3 @@ const CartItem = ({ onContinueShopping }) => {
 };
 
 export default CartItem;
-
-
