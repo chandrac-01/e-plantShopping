@@ -265,7 +265,7 @@ function ProductList({ onHomeClick }) {
          }));
       };
 
-    const cartItems = useSelector(state => state.cart.items);
+    const cartItems = useSelector((state) => state.cart.items);
       // Function to calculate total quantity of items in cart
     const calculateTotalQuantity = () => {
         return cartItems ? cartItems.reduce((total, item) => total + item.quantity, 0) : 0;
